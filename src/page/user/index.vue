@@ -93,9 +93,9 @@ export default {
   components: {
   },
   created:function(){
-      GetUserIndex().then(response=>{
-          this.data=response;
-      });
+      // GetUserIndex().then(response=>{
+      //     this.data=response;
+      // });
   },
 };
 </script>
