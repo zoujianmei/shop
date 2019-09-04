@@ -5,3 +5,4 @@ li{list-style:none;}
 img {border:0px currentColor;vertical-align:top;}
 ol {list-style:none; margin:0px; padding:0px;}
 a{color:rgb(0, 0, 0); text-decoration:none;}
+*{box-sizing: border-box;}

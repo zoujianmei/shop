@@ -22,30 +22,6 @@
               active: 0
           }
       },
-      watch:{   //监听路由变化
-        $route(to,from){
-            console.log(to.path);
-        }
-    },
-    //   watch: {
-    //     $route(to, from) {
-    //         console.log(123)
-    //       switch (to.fullPath) {
-    //         case '/home':
-    //         this.active = 0;
-    //         break;
-    //         case '/category':
-    //         this.active = 1;
-    //         break;
-    //         case '/cart':
-    //         this.active = 2;
-    //         break;
-    //         case '/user':
-    //         this.active = 3;
-    //         break;
-    //       }
-    //     }
-    // },
     methods: {
       //   tab(index) {
       //     this.active = index;

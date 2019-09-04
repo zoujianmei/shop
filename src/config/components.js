@@ -15,6 +15,7 @@ import {
   SwipeItem,
   GoodsAction,
   Sku,
+  Search,
   Card,Button,SwipeCell,Dialog,Tab, Tabs,Row,Checkbox, CheckboxGroup, SubmitBar,NavBar,Tabbar, TabbarItem,Panel,List,Step, Steps,Field ,
   Sidebar,SidebarItem,Popup,Stepper,RadioGroup, Radio,Picker,Uploader,Info
 } from 'vant';
@@ -30,6 +31,7 @@ const components=[
     SwipeItem,
     GoodsAction,
     Sku,
+    Search,
     Card,
     Button,
     SwipeCell ,

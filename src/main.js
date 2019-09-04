@@ -3,7 +3,9 @@ import App from './App'
 import router from './router'
 import './config/rem';
 import components from './config/components.js';
+import { Lazyload } from 'vant';
 Vue.use(components);
+Vue.use(Lazyload);
 
 // 引用API文件
 import api from './api/index.js'
